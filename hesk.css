@@ -2,9 +2,22 @@
     background-color: #edeef2 !important;
 }
 
-@media screen and (max-width: 899px) {
-    .main__content.tickets {
-        padding: 17px 12px 24px;
-        background-color: #edeef2 !important;
-    }
+button,
+.button,
+.btn,
+input[type="submit"],
+input[type="button"] {
+    background-color: #25b14b !important;
+    color: #ffffff !important;
+    cursor: pointer;
+    font-family: 'OpenSansRegular', sans-serif !important;
+    border-radius: 4px !important;
+}
+
+button:hover,
+.button:hover,
+.btn:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    filter: brightness(0.92);
 }
