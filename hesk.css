@@ -1,3 +1,6 @@
 .block--timer.canned-options .selectize-dropdown-content {
     max-height: 400px !important;
 }
+.filters__listing .btn {
+    border-radius: 10px !important;
+}
