@@ -4,3 +4,6 @@
 .filters__listing .btn {
     border-radius: 10px !important;
 }
+a.btn.btn-full.ripple {
+  border-radius: 10px;
+}
