@@ -11,3 +11,9 @@
 .btn--blue-border, .btn-full {
         border-radius: 10px;
     }
+selectize-control .selectize-input {
+    border-radius: 10px !important;
+}
+.form input.form-control, .form textarea.form-control {
+    border-radius: 10px;
+}
