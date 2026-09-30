@@ -7,3 +7,7 @@
 .btn-full {
     border-radius: 10px;
 }
+
+.btn--blue-border, .btn-full {
+        border-radius: 10px;
+    }
