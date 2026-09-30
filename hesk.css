@@ -17,3 +17,60 @@ selectize-control .selectize-input {
 .form input.form-control, .form textarea.form-control {
     border-radius: 10px;
 }
+.main-menu {
+    background-color: #25b14b;
+    color: white;
+}
+
+.listitem__caption {
+    font-weight: 900;
+    font-size: large;
+}
+
+.header,
+.main__content {
+    background-color: #f8f9fa;
+}
+
+.btn-full {
+    background-color: #ffc107;
+    color: black;
+    font-weight: 900;
+    font-size: 16px;
+    border: none;
+}
+
+.btn-full:hover {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    opacity: 0.75;
+}
+
+.table thead {
+    background-color: rgba(40, 167, 69, 0.75);
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: none;
+}
+
+.table thead th:not(:first-child),
+.table tbody td:not(:first-child) {
+    border-left: 1px solid #9f9f9f;
+}
+
+.table tbody tr {
+    background-color: rgba(40, 167, 69, 0.06);
+    color: black;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: rgba(40, 167, 69, 0.25);
+}
+
+.table tbody td {
+    color: black;
+}
+
+.table tbody tr:hover {
+    background-color: transparent;
+}
