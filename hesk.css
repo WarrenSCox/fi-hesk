@@ -79,3 +79,25 @@ table thead th {
 .table tbody tr:hover {
     background-color: transparent;
 }
+
+.link {
+    color: none;
+    font-weight: bold;
+}
+
+.filters__listing .btn.is-selected {
+    border-color: white;
+    box-shadow: 0 2px 8px 0 rgba(38, 40, 42, 0.1);
+    background-color: #25b14b;
+}
+
+.btn-transparent:hover {
+    background-color: #25b14b;
+    border: 1px solid #133e5e;
+}
+
+.btn-transparent:hover {
+    background-color: #25b14b;
+    border: 1px solid #ffff;
+    border-color;: #ffff !important;
+}
