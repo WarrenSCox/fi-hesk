@@ -1,3 +1,14 @@
+/* Hide desktop header sections */
+header.header .header__left,
+header.header .header__right {
+    display: none !important;
+}
+
+/* Show mobile header on all screen sizes */
+header.header .header__mobile {
+    display: flex !important;
+}
+
 .block--timer.canned-options .selectize-dropdown-content {
     max-height: 400px !important;
 }
@@ -69,7 +80,7 @@ table thead th {
 }
 
 .table tbody tr:nth-child(even) {
-    background-color: rgba(40, 167, 69, 0.25);
+    background-color: rgb(40 167 69 / 13%);
 }
 
 .table tbody td {
@@ -198,4 +209,19 @@ a {
 
 .link {
     color: black;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.main__content.tickets .table th:nth-child(2), .main__content.tickets .table td:nth-child(2) {
+    border: solid 1px #b3b3b3;
+    max-width: 105px;
+}
+
+@media screen and (max-width: 899px) {
+    .main__content.tickets table th:nth-child(3), .main__content.tickets table td:nth-child(3) {
+        max-width: 85px;
+    }
 }
