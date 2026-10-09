@@ -1,14 +1,34 @@
-/* Hide desktop header sections */
+/* Hide original desktop header */
 header.header .header__left,
 header.header .header__right {
     display: none !important;
 }
 
-/* Show mobile header on all screen sizes */
+/* Force mobile header to display */
 header.header .header__mobile {
     display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 100% !important;
+    align-items: center !important;
+    justify-content: space-between !important;
 }
 
+/* Keep header visible and full width */
+header.header {
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+/* Make mobile menu and controls visible */
+header.header .header__menu,
+header.header .navbar__logo,
+header.header .header__mobile_actions {
+    display: flex !important;
+    visibility: visible !important;
+    align-items: center !important;
+}
 .block--timer.canned-options .selectize-dropdown-content {
     max-height: 400px !important;
 }
