@@ -101,3 +101,72 @@ table thead th {
     border: 1px solid #ffff;
     border-color;: #ffff !important;
 }
+.btn-full:hover {
+    background-color: #ffc107;
+    color: black;
+    opacity: 0.8;
+}
+
+.btn--blue-border {
+      color: black;
+    font-weight: 600;
+    background-color: #ffc107;
+    border: none;
+    font-size: medium;
+}
+
+.btn--blue-border:hover {
+    border-color: none;
+    background-color: #ffc107;
+    color: none;
+    opacity: 0.8;
+}
+
+.form input.form-control, .form textarea.form-control {
+    border: solid 1px #b3b3b3;
+    -webkit-appearance: none;
+    outline: none;
+    color: none;
+    background: #ededed;
+}
+
+.btn-transparent {
+    border: 1px solid #b3b3b3;
+}
+
+.header .profile__item.profile__item--mail {
+    display: none;
+}
+
+.header .user__ava {
+    background-color: rgba(37, 177, 75);
+}
+
+.header .user__name p span {
+    color: black;
+}
+
+.header .icon:hover {
+    fill: black;
+}
+
+.checkbox-custom [type='checkbox']:not(:checked)+label {
+    color: black;
+}
+
+.pagination__amount {
+    color: black;
+}
+
+.selectize-control .selectize-input {
+    border-radius: 12px;
+    border: solid 1px #b3b3b3;
+}
+
+.selectize-dropdown, .selectize-input, .selectize-input input {
+    color: black;
+}
+
+.selectize-control .selectize-dropdown .option.active {
+    background-color: #b3b3b3;
+}
