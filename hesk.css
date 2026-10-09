@@ -80,11 +80,6 @@ table thead th {
     background-color: transparent;
 }
 
-.link {
-    color: none;
-    font-weight: bold;
-}
-
 .filters__listing .btn.is-selected {
     border-color: white;
     box-shadow: 0 2px 8px 0 rgba(38, 40, 42, 0.1);
@@ -167,6 +162,40 @@ table thead th {
     color: black;
 }
 
+.param.calendar .calendar--button button {
+    background-color: rgba(37, 177, 75);
+    border-radius: 12px;
+}
+
 .selectize-control .selectize-dropdown .option.active {
     background-color: #b3b3b3;
+}
+
+.radio-custom [type='radio']:checked+label, .radio-custom [type='radio']:not(:checked)+label {
+    color: black;
+}
+
+.radio-custom [type='radio']:checked+label {
+    color: none;
+}
+
+a {
+    color: black;
+}
+
+.wrapper {
+    color: black;
+}
+
+.checkbox-custom [type='checkbox']:checked+label {
+    color: black;
+}
+
+.checkbox-custom [type='checkbox']:checked+label:before, .checkbox-custom [type='checkbox']:not(:checked)+label:before {
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.link {
+    color: black;
 }
