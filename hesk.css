@@ -46,6 +46,11 @@ selectize-control .selectize-input {
     opacity: 0.75;
 }
 
+table thead th {
+    font-family: 'JosefinSansBold', sans-serif !important;
+    font-weight: bold !important;
+}
+
 .table thead {
     background-color: rgba(37, 177, 75);
     font-size: 14px;
